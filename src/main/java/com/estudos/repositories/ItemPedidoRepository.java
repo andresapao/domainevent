@@ -1,4 +1,4 @@
-package repositories;
+package com.estudos.repositories;
 
 import java.util.UUID;
 
