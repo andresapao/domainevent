@@ -3,13 +3,11 @@ package com.estudos.entities.pedido;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NonNull;
-import org.springframework.context.ApplicationEventPublisher;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import java.time.LocalDate;
 import java.util.Objects;
 import java.util.UUID;
 
@@ -32,5 +30,4 @@ public class ItemPedido {
         this.nomeProduto = nomeProduto;
 
     }
-
 }
